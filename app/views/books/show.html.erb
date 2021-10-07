@@ -1,0 +1,14 @@
+<p></p>
+<p>
+  <storing>Title:</storing>
+  <%= @book.title %>
+</p>
+
+<p>
+  <storing>Body:</storing>
+  <%= @book.body %>
+</p>
+
+<%= link_to "Edit", edit_book_path(@book.id) %>
+ |
+<%= link_to "Back", books_path %>
